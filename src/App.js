@@ -2,6 +2,8 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
+import Person from "./Person.component";
+
 class App extends React.Component {
   state = {
     count: 0,
@@ -12,6 +14,7 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <Person person={{ name: "john", age: 34 }} />
           Button Count:{count}
           <button
             className="btn"
