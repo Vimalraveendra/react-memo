@@ -8,6 +8,10 @@
 # testing
 /coverage
 
+###visual studio code###
+.vscode/
+.vscode/settings.json
+
 # production
 /build
 
