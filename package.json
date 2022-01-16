@@ -9,7 +9,7 @@
     "elliptic": "^6.5.3",
     "immer": "^9.0.6",
     "lodash": "^4.17.21",
-    "node-forge": "^0.10.0",
+    "node-forge": "^1.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
